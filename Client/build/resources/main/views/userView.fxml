@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <children>
+      <Button fx:id="button2" layoutX="379.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleButton2" text="2" />
+      <Button fx:id="buttonLogout" layoutX="479.0" layoutY="32.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <Button fx:id="buttonStart" layoutX="80.0" layoutY="145.0" mnemonicParsing="false" onAction="#startGame" prefHeight="109.0" prefWidth="141.0" text="Start game" />
+      <Button fx:id="button1" layoutX="300.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleButton1" text="1" />
+      <Button fx:id="button3" layoutX="460.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleButton3" text="3" />
+      <Button fx:id="button4" layoutX="300.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleButton4" text="4" />
+      <Button fx:id="button5" layoutX="379.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleButton5" text="5" />
+      <Button fx:id="button6" layoutX="468.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleButton6" text="6" />
+      <Button fx:id="button7" layoutX="300.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleButton7" text="7" />
+      <Button fx:id="button8" layoutX="379.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleButton8" text="8" />
+      <Button fx:id="button9" layoutX="468.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleButton9" text="9" />
+      <TextField fx:id="textboxPosition" layoutX="76.0" layoutY="106.0" />
+      <Label fx:id="labelWait" layoutX="33.0" layoutY="65.0" prefHeight="17.0" prefWidth="217.0" text="Wait for one more player to join..." />
+      <Label fx:id="labelPlayers" layoutX="289.0" layoutY="48.0" text="Players: " />
+      <Label fx:id="labelMyPlane" layoutX="283.0" layoutY="82.0" text="My plane: " />
+   </children>
+</AnchorPane>
